@@ -1,0 +1,636 @@
+华为机考OD2025题目卷别分析
+==================================================
+
+各卷题目列表:
+
+A卷 (117题):
+  1. ﻿(,)- Linux发行版的数量（Java & JS & Python）
+  2. (,)- 猜数字（Java & JS & Python）
+  3. (,)- 猜字谜（Java & JS & Python）
+  4. (,)- 插队（Java & JS & Python）
+  5. (,)- 查找单入口空闲区域（Java & JS & Python）
+  6. (,)- 查找重复代码（Java & JS & Python）
+  7. (,)- 称砝码（Java & JS & Python）
+  8. (,)- 处理器问题（Java & JS & Python）
+  9. (,)- 打印机队列（Java & JS & Python）
+ 10. (,)- 单词倒序（Java & JS & Python）
+ 11. (,)- 单向链表中间节点（Java & JS & Python）
+ 12. (,)- 等和子数组最小和（Java & JS & Python）
+ 13. (,)- 端口合并（Java & JS & Python）
+ 14. (,)- 对称美学（Java & JS & Python）
+ 15. (,)- 二元组个数（Java & JS & Python）
+ 16. (,)- 幻方修复（Java & JS & Python）
+ 17. (,)- 回文字符串（Java & JS & Python）
+ 18. (,)- 货币单位换算（Java & JS & Python）
+ 19. (,)- 获取最大软件版本号（Java & JS & Python）
+ 20. (,)- 机器人（Java & JS & Python）
+ 21. (,)- 积木最远距离（Java & JS & Python）
+ 22. (,)- 计算数组中心位置（Java & JS & Python）
+ 23. (,)- 简单的自动曝光、平均像素值（Java & JS & Python）
+ 24. (,)- 静态扫描（Java & JS & Python）
+ 25. (,)- 开心消消乐（Java & JS & Python）
+ 26. (,)- 快递业务站（Java & JS & Python）
+ 27. (,)- 密室逃生游戏（Java & JS & Python）
+ 28. (,)- 模拟商场优惠打折（Java & JS & Python）
+ 29. (,)- 匿名信（Java & JS & Python）
+ 30. (,)- 人数最多的站点（Java & JS & Python）
+ 31. (,)- 任务总执行时长（Java & JS & Python）
+ 32. (,)- 日志首次上报最多积分（Java & JS & Python）
+ 33. (,)- 日志限流（20220921）
+ 34. (,)- 冗余覆盖（Java & JS & Python）
+ 35. (,)- 识图谱新词挖掘（Java & JS & Python）
+ 36. (,)- 挑选字符串（Java & JS & Python）
+ 37. (,)- 通信误码（Java & JS & Python）
+ 38. (,)- 统一限载货物数最小值（Java & JS & Python）
+ 39. (,)- 投篮大赛（Java & JS & Python）
+ 40. (,)- 完美走位（Java & JS & Python）
+ 41. (,)- 网上商城优惠活动（Java & JS & Python）
+ 42. (,)- 微服务的集成测试（Java & JS & Python）
+ 43. (,)- 箱子之字形摆放（Java & JS & Python）
+ 44. (,)- 新学校选址（Java & JS & Python）
+ 45. (,)- 新员工座位（Java & JS & Python）
+ 46. (,)- 星际篮球争霸赛（Java & JS & Python）
+ 47. (,)- 寻找相似单词（Java & JS & Python）
+ 48. (,)- 异常的打卡记录（Java & JS & Python）
+ 49. (,)- 优秀学员统计（Java & JS & Python）
+ 50. (,)- 预订酒店（Java & JS & Python）
+ 51. (,)- 找数字、找等值元素（Java & JS & Python）
+ 52. (,)- 真正的密码（Java & JS & Python）
+ 53. (,)- 整理扑克牌（Java & JS & Python）
+ 54. (,)- 字符串重新排列、字符串重新排序（Java & JS & Python）
+ 55. (,)- 字母组合（Java & JS & Python & C）
+ 56. (,)- 总最快检测效率（Java & JS & Python）
+ 57. (,)- 租车骑绿岛（Java & JS & Python）
+ 58. (,)- 最大报酬（Java & JS & Python）
+ 59. (,)- 最大利润（Java & JS & Python）
+ 60. (,)- 最短木板长度（Java & JS & Python）
+ 61. (,)- 最多颜色的车辆（Java & JS & Python）
+ 62. (,)- 最快到达医院的方法（Java & JS & Python）
+ 63. (,)- 最小调整顺序次数、特异性双端队列（Java & JS & Python）
+ 64. (,)- 最长的密码（Java & JS & Python）
+ 65. (,)- Excel单元格数值统计（Java & JS & Python）
+ 66. (,)- 不含101的数（Java & JS & Python）
+ 67. (,)- 查找充电设备组合（Java & JS & Python）
+ 68. (,)- 查找树中元素（Java & JS & Python）
+ 69. (,)- 创建二叉树（Java & JS & Python）
+ 70. (,)- 递增字符串（Java & JS & Python）
+ 71. (,)- 二进制差异数（Java & JS & Python）
+ 72. (,)- 分奖金（Java & JS & Python）
+ 73. (,)- 服务中心选址（Java & JS & Python）
+ 74. (,)- 工单调度策略（20220413）
+ 75. (,)- 荒地（Java & JS & Python）
+ 76. (,)- 机房布局（Java & JS & Python）
+ 77. (,)- 基站维护工程师（Java & JS & Python）
+ 78. (,)- 几何平均值最大子数组（Java & JS & Python）
+ 79. (,)- 计算快递主站点（Java & JS & Python）
+ 80. (,)- 计算网络信号、信号强度（Java & JS & Python & C）
+ 81. (,)- 简单的解压缩算法（Java & JS & Python）
+ 82. (,)- 九宫格（20220529）
+ 83. (,)- 开放日活动、取出尽量少的球（Java & JS & Python）
+ 84. (,)- 快递投放问题（Java & JS & Python）
+ 85. (,)- 快速开租建站（Java & JS & Python）
+ 86. (,)- 垃圾短信识别（Java & JS & Python）
+ 87. (,)- 连接器问题（Java & JS & Python）
+ 88. (,)- 农场施肥（Java & JS & Python）
+ 89. (,)- 区间交叠问题（Java & JS & Python）
+ 90. (,)- 区块链文件转储系统（Java & JS & Python）
+ 91. (,)- 去除多余空格（Java & JS & Python）
+ 92. (,)- 任务调度（Java & JS & Python）
+ 93. (,)- 上班之路（Java & JS & Python）
+ 94. (,)- 士兵过河（Java & JS & Python）
+ 95. (,)- 数字加减游戏（Java & JS & Python）
+ 96. (,)- 探索地块建立（Java & JS & Python）
+ 97. (,)- 天然蓄水库（Java & JS & Python）
+ 98. (,)- 无向图染色（Java & JS & Python）
+ 99. (,)- 信号发射和接收（Java & JS & Python）
+100. (,)- 寻找符合要求的最长子串（Java & JS & Python）
+101. (,)- 羊、狼、农夫过河（Java & JS & Python）
+102. (,)- 硬件产品销售方案（Java & JS & Python）
+103. (,)- 优选核酸检测点（Java & JS & Python）
+104. (,)- 优雅子数组（Java & JS & Python）
+105. (,)- 字符串解密（Java & JS & Python）
+106. (,)- 组合出合法最小数（Java & JS & Python）
+107. (,)- 组装新的数组（Java & JS & Python）
+108. (,)- 最差产品奖（Java & JS & Python）
+109. (,)- 最大化控制资源成本（Java & JS & Python）
+110. (,)- 最大平分数组（Java & JS & Python）
+111. (,)- 最大数字（Java & JS & Python）
+112. (,)- 最多等和不相交连续子序列（Java & JS & Python）
+113. (,)- 最多获得的短信条数、云短信平台优惠活动（Java & JS & Python）
+114. (,)- 最多几个直角三角形（Java & JS & Python）
+115. (,)- 最佳对手（Java & JS & Python）
+116. (,)- 最优高铁城市修建方案（20220529）
+117. (,)- 最优资源分配（Java & JS & Python）
+
+B卷 (142题):
+  1. (,)- AI面板识别（Java & JS & Python & C）
+  2. (,)- IPv4地址转换成整数（Java & JS & Python）
+  3. (,)- TLV解码（Java & JS & Python & C）
+  4. (,)- VLAN资源池（Java & JS & Python）
+  5. (,)- 阿里巴巴找黄金宝箱(I)（Java & JS & Python & C）
+  6. (,)- 阿里巴巴找黄金宝箱(II)（Java & JS & Python）
+  7. (,)- 阿里巴巴找黄金宝箱(III) （Java & JS & Python）
+  8. (,)- 阿里巴巴找黄金宝箱(V)（Java & JS & Python & C）
+  9. (,)- 按单词下标区间翻转文章内容（Java & JS & Python & C）
+ 10. (,)- 拔河比赛（Java & JS & Python & C）
+ 11. (,)- 报文回路（Java & JS & Python）
+ 12. (,)- 报文重排序（Java & JS & Python & C）
+ 13. (,)- 比赛（Java & JS & Python）
+ 14. (,)- 比赛的冠亚季军（Java & JS & Python）
+ 15. (,)- 补种未成活胡杨（Java & JS & Python & C）
+ 16. (,)- 乘坐保密电梯（Java & JS & Python）
+ 17. (,)- 磁盘容量排序（Java & JS & Python）
+ 18. (,)- 代码编辑器（Java & JS & Python）
+ 19. (,)- 斗地主之顺子（Java & JS & Python）
+ 20. (,)- 非严格递增连续数字序列（Java & JS & Python & C）
+ 21. (,)- 分班（Java & JS & Python）
+ 22. (,)- 分割数组的最大差值（Java & JS & Python & C）
+ 23. (,)- 分苹果（Java & JS & Python & C）
+ 24. (,)- 分糖果（Java & JS & Python & C）
+ 25. (,)- 符合要求的元组的个数（Java & JS & Python & C）
+ 26. (,)- 高矮个子排队（Java & JS & Python & C）
+ 27. (,)- 告警抑制（Java & JS & Python & C）
+ 28. (,)- 构成正方形的数量（Java & JS & Python）
+ 29. (,)- 关联子串（Java & JS & Python & C）
+ 30. (,)- 喊7的次数重排（Java & JS & Python）
+ 31. (,)- 恢复数字序列（Java & JS & Python）
+ 32. (,)- 计算最大乘积（Java & JS & Python & C）
+ 33. (,)- 计算最接近的数（Java & JS & Python & C）
+ 34. (,)- 金字塔，BOSS的收入（Java & JS & Python）
+ 35. (,)- 经典屏保（Java & JS & Python & C）
+ 36. (,)- 矩形相交的面积（Java & JS & Python & C）
+ 37. (,)- 矩阵稀疏扫描（Java & JS & Python & C）
+ 38. (,)- 矩阵元素的边界值（Java & JS & Python & C）
+ 39. (,)- 矩阵最大值（Java & JS & Python & C）
+ 40. (,)- 篮球比赛（Java & JS & Python & C）
+ 41. (,)- 流水线（Java & JS & Python & C）
+ 42. (,)- 路灯照明问题（Java & JS & Python & C）
+ 43. (,)- 乱序整数序列两数之和绝对值最小（Java & JS & Python）
+ 44. (,)- 敏感字段加密（Java & JS & Python）
+ 45. (,)- 模拟消息队列（Java & JS & Python）
+ 46. (,)- 内存资源分配（Java & JS & Python & C）
+ 47. (,)- 判断一组不等式是否满足约束并输出最大差（Java & JS & Python）
+ 48. (,)- 求最小步数（Java & JS & Python & C）
+ 49. (,)- 全量和已占用字符集（Java & JS & Python）
+ 50. (,)- 热点网站统计（Java & JS & Python）
+ 51. (,)- 生日礼物（Java & JS & Python & C）
+ 52. (,)- 食堂供餐（Java & JS & Python & C）
+ 53. (,)- 事件推送（Java & JS & Python & C）
+ 54. (,)- 数大雁（Java & JS & Python）
+ 55. (,)- 数据分类（Java & JS & Python）
+ 56. (,)- 数列描述（Java & JS & Python）
+ 57. (,)- 数字反转打印（Java & JS & Python）
+ 58. (,)- 数组拼接（Java & JS & Python & C）
+ 59. (,)- 数组去重和排序（Java & JS & Python）
+ 60. (,)- 太阳能板最大面积（Java & JS & Python & C）
+ 61. (,)- 跳房子I（Java & JS & Python）
+ 62. (,)- 统计射击比赛成绩（Java & JS & Python）
+ 63. (,)- 玩牌高手（Java & JS & Python & C）
+ 64. (,)- 文件目录大小（Java & JS & Python）
+ 65. (,)- 五子棋迷（Java & JS & Python & C）
+ 66. (,)- 相对开音节（Java & JS & Python）
+ 67. (,)- 响应报文时间（Java & JS & Python & C）
+ 68. (,)- 需要打开多少监控器（Java & JS & Python & C）
+ 69. (,)- 选修课（Java & JS & Python）
+ 70. (,)- 运维日志排序（Java & JS & Python & C）
+ 71. (,)- 增强的strstr（Java & JS & Python）
+ 72. (,)- 找车位（Java & JS & Python & C）
+ 73. (,)- 找终点（Java & JS & Python）
+ 74. (,)- 找最小数（Java & JS & Python）
+ 75. (,)- 整数编码（Java & JS & Python）
+ 76. (,)- 支持优先级的队列（Java & JS & Python）
+ 77. (,)- 字符串分割（Java & JS & Python）
+ 78. (,)- 字符串加密（Java & JS & Python & C）
+ 79. (,)- 字符串摘要（Java & JS & Python & C）
+ 80. (,)- 组成最大数（Java & JS & Python & C）
+ 81. (,)- 最大花费金额（Java & JS & Python & C）
+ 82. (,)- 最少交换次数（Java & JS & Python & C）
+ 83. (,)- 最远足迹（Java & JS & Python）
+ 84. (,)- 最长公共后缀（Java & JS & Python & C）
+ 85. (,)- 最长连续子序列（Java & JS & Python & C）
+ 86. (,)- 座位调整（Java & JS & Python & C）
+ 87. (,)- MELON的难题（Java & JS & Python & C）
+ 88. (,)- 阿里巴巴找黄金宝箱(IV)（Java & JS & Python & C）
+ 89. (,)- 报文解压缩（Java & JS & Python）
+ 90. (,)- 编码能力提升计划（Java & JS & Python & C）
+ 91. (,)- 不开心的小朋友（Java & JS & Python）
+ 92. (,)- 采样过滤（Java & JS & Python & C）
+ 93. (,)- 查字典（Java & JS & Python & C）
+ 94. (,)- 代表团坐车（Java & JS & Python & C）
+ 95. (,)- 单词搜索（Java & JS & Python）
+ 96. (,)- 二叉树中序遍历（Java & JS & Python）
+ 97. (,)- 二维伞的雨滴效应（Java & JS & Python & C）
+ 98. (,)- 返回矩阵中非1的元素个数（Java & JS & Python & C）
+ 99. (,)- 仿LISP运算（Java & JS & Python）
+100. (,)- 分积木（Java & JS & Python & C）
+101. (,)- 服务失效判断（Java & JS & Python）
+102. (,)- 购物（Java & JS & Python）
+103. (,)- 观看文艺汇演问题（Java & JS & Python & C）
+104. (,)- 荒岛求生（Java & JS & Python & C）
+105. (,)- 计算误码率（Java & JS & Python & C）
+106. (,)- 矩阵扩散（Java & JS & Python & C）
+107. (,)- 目录删除（Java & JS & Python）
+108. (,)- 排队游戏（Java & JS & Python & C）
+109. (,)- 评论转换输出（Java & JS & Python）
+110. (,)- 区间交集（Java & JS & Python）
+111. (,)- 人气最高的店铺（Java & JS & Python）
+112. (,)- 书籍叠放（Java & JS & Python）
+113. (,)- 树状结构查询（Java & JS & Python）
+114. (,)- 竖直四子棋（Java & JS & Python）
+115. (,)- 数据最节约的备份方法（Java & JS & Python & C）
+116. (,)- 数字序列比大小（Java & JS & Python & C）
+117. (,)- 数字游戏（Java & JS & Python）
+118. (,)- 跳房子II（Java & JS & Python & C）
+119. (,)- 跳格子1（Java & JS & Python & C）
+120. (,)- 跳格子2（Java & JS & Python & C）
+121. (,)- 跳格子游戏（Java & JS & Python）
+122. (,)- 通过软盘拷贝文件（Java & JS & Python & C）
+123. (,)- 完全二叉树非叶子部分后序遍历（Java & JS & Python & C）
+124. (,)- 相同数字组成图形的周长（Java & JS & Python & C）
+125. (,)- 学生方阵（Java & JS & Python & C）
+126. (,)- 寻找最大价值的矿堆（Java & JS & Python）
+127. (,)- 宜居星球改造计划（Java & JS & Python & C）
+128. (,)- 战场索敌（Java & JS & Python & C）
+129. (,)- 找出两个整数数组中同时出现的整数（Java & JS & Python）
+130. (,)- 周末爬山（Java & JS & Python & C）
+131. (,)- 字符串化繁为简（Java & JS & Python）
+132. (,)- 字符串划分（Java & JS & Python & C）
+133. (,)- 字符匹配（Java & JS & Python）
+134. (,)- 组装最大可靠性设备（Java & JS & Python）
+135. (,)- 最佳的出牌方法（Java & JS & Python & C）
+136. (,)- 最佳植树距离（Java & JS & Python & C）
+137. (,)- 最少面试官数（Java & JS & Python）
+138. (,)- 最小传输时延（Java & JS & Python）
+139. (,)- 最小循环子数组（Java & JS & Python & C）
+140. (,)- 最长的顺子（Java & JS & Python）
+141. (,)- 最长的完全交替连续方波信号（Java & JS & Python）
+142. (,)- 最长广播响应（Java & JS & Python）
+
+C卷 (202题):
+  1. (,)- 5键键盘（Java & JS & Python）
+  2. (,)- ABR 车路协同场景（Java & JS & Python）
+  3. (,)- API集群负载统计（Java & JS & Python & C）
+  4. (,)- CPU算力分配（Java & JS & Python & C）
+  5. (,)- We Are A Team（Java & JS & Python & C）
+  6. (,)- 爱吃蟠桃的孙悟空（Java & JS & Python & C）
+  7. (,)- 按身高和体重排队（Java & JS & Python & C）
+  8. (,)- 报数问题（Java & JS & Python）
+  9. (,)- 报数游戏（Java & JS & Python）
+ 10. (,)- 表达式括号匹配（Java & JS & Python & C）
+ 11. (,)- 部门人力分配（Java & JS & Python & C）
+ 12. (,)- 测试用例执行计划（Java & JS & Python & C）
+ 13. (,)- 查找接口成功率最优时间段（Java & JS & Python & C）
+ 14. (,)- 查找众数及中位数（Java & JS & Python & C）
+ 15. (,)- 单词加密（Java & JS & Python）
+ 16. (,)- 单词接龙（Java & JS & Python）
+ 17. (,)- 单词重量（Java & JS & Python）
+ 18. (,)- 德州扑克（Java & JS & Python）
+ 19. (,)- 第k个排列（Java & JS & Python）
+ 20. (,)- 堆内存申请（Java & JS & Python & C）
+ 21. (,)- 堆栈中的剩余数字（Java & JS & Python）
+ 22. (,)- 多段线数据压缩（Java & JS & Python & C）
+ 23. (,)- 翻牌求最大分（Java & JS & Python & C）
+ 24. (,)- 分割均衡字符串（Java & JS & Python & C）
+ 25. (,)- 分配土地（Java & JS & Python & C）
+ 26. (,)- 分披萨（Java & JS & Python & C）
+ 27. (,)- 工号不够用了怎么办？（Java & JS & Python & C）
+ 28. (,)- 勾股数元组（Java & JS & Python）
+ 29. (,)- 冠亚军排名，奖牌榜排名（Java & JS & Python & C）
+ 30. (,)- 猴子爬山（Java & JS & Python）
+ 31. (,)- 滑动窗口最大和（Java & JS & Python & C）
+ 32. (,)- 灰度图存储（Java & JS & Python & C）
+ 33. (,)- 会议室占用时间（Java & JS & Python & C）
+ 34. (,)- 绘图机器（Java & JS & Python & C）
+ 35. (,)- 火星文计算（Java & JS & Python）
+ 36. (,)- 火星文计算2（Java & JS & Python & C）
+ 37. (,)- 机场航班调度程序（Java & JS & Python & C）
+ 38. (,)- 机器人搬砖（Java & JS & Python & C）
+ 39. (,)- 计算礼品发放的最小分组数目（Java & JS & Python）
+ 40. (,)- 计算三叉搜索树的高度（Java & JS & Python & C）
+ 41. (,)- 检查是否存在满足条件的数字组合（Java & JS & Python & C）
+ 42. (,)- 解密犯罪时间（Java & JS & Python）
+ 43. (,)- 精准核酸检测（Java & JS & Python & C）
+ 44. (,)- 开源项目热度榜单（Java & JS & Python & C）
+ 45. (,)- 考勤信息（Java & JS & Python & C）
+ 46. (,)- 靠谱的车（Java & JS & Python & C）
+ 47. (,)- 快递运输（Java & JS & Python & C）
+ 48. (,)- 括号匹配（Java & JS & Python）
+ 49. (,)- 来自异国的客人（Java & JS & Python & C）
+ 50. (,)- 连续字母长度（Java & JS & Python）
+ 51. (,)- 两数之和绝对值最小（Java & JS & Python）
+ 52. (,)- 螺旋数字矩阵（Java & JS & Python & C）
+ 53. (,)- 密码解密（Java & JS & Python & C）
+ 54. (,)- 密码输入检测（Java & JS & Python & C）
+ 55. (,)- 密钥格式化（Java & JS & Python）
+ 56. (,)- 免单统计（Java & JS & Python）
+ 57. (,)- 内存冷热标记（Java & JS & Python & C）
+ 58. (,)- 攀登者1（Java & JS & Python & C）
+ 59. (,)- 判断字符串子序列（Java & JS & Python）
+ 60. (,)- 拼接URL（Java & JS & Python）
+ 61. (,)- 悄悄话（Java & JS & Python & C）
+ 62. (,)- 求符合要求的结对方式（Java & JS & Python & C）
+ 63. (,)- 求解连续数列（Java & JS & Python & C）
+ 64. (,)- 求满足条件的最长子串的长度（Java & JS & Python & C）
+ 65. (,)- 求幸存数之和（Java & JS & Python & C）
+ 66. (,)- 求字符串中所有整数的最小和（Java & JS & Python & C）
+ 67. (,)- 求最多可以派出多少支团队（Java & JS & Python & C）
+ 68. (,)- 全排列（Java & JS & Python）
+ 69. (,)- 生成哈夫曼树（Java & JS & Python & C）
+ 70. (,)- 剩余银饰的重量（Java & JS & Python & C）
+ 71. (,)- 石头剪刀布游戏（Java & JS & Python & C）
+ 72. (,)- 手机App防沉迷系统（Java & JS & Python & C）
+ 73. (,)- 输出指定字母在字符串的中的索引（Java & JS & Python）
+ 74. (,)- 数据单元的变化替换（Java & JS & Python & C）
+ 75. (,)- 数字涂色（Java & JS & Python & C）
+ 76. (,)- 数字字符串组合倒序（Java & JS & Python）
+ 77. (,)- 数组连续和（Java & JS & Python & C）
+ 78. (,)- 数组组成的最小数字（Java & JS & Python & C）
+ 79. (,)- 水仙花数（Java & JS & Python & C）
+ 80. (,)- 素数之积（Java & JS & Python & C）
+ 81. (,)- 提取字符串中的最长合法简单数学表达式（Java & JS & Python & C）
+ 82. (,)- 停车场车辆统计（Java & JS & Python & C）
+ 83. (,)- 围棋的气（Java & JS & Python & C）
+ 84. (,)- 消消乐游戏（Java & JS & Python）
+ 85. (,)- 小华地图寻宝（Java & JS & Python & C）
+ 86. (,)- 小明的幸运数（Java & JS & Python & C）
+ 87. (,)- 小明找位置（Java & JS & Python & C）
+ 88. (,)- 小朋友来自多少小区（Java & JS & Python & C）
+ 89. (,)- 虚拟理财游戏（Java & JS & Python & C）
+ 90. (,)- 寻找身高相近的小朋友（Java & JS & Python）
+ 91. (,)- 寻找相同子串（Java & JS & Python & C）
+ 92. (,)- 一种字符串压缩表示的解压（Java & JS & Python）
+ 93. (,)- 英文输入法（Java & JS & Python）
+ 94. (,)- 用户调度问题（Java & JS & Python & C）
+ 95. (,)- 用连续自然数之和来表达整数（Java & JS & Python）
+ 96. (,)- 游戏分组（Java & JS & Python & C）
+ 97. (,)- 约瑟夫问题（Java & JS & Python & C）
+ 98. (,)- 在字符串中找出连续最长的数字串(含“+-”号)（Java & JS & Python）
+ 99. (,)- 掌握的单词个数（Java & JS & Python & C）
+100. (,)- 找出符合要求的字符串子串（Java & JS & Python）
+101. (,)- 找出经过特定点的路径长度（Java & JS & Python）
+102. (,)- 找朋友（Java & JS & Python & C）
+103. (,)- 找座位（Java & JS & Python & C）
+104. (,)- 整数对最小和（Java & JS & Python & C）
+105. (,)- 整型数组按个位值排序（Java & JS & Python）
+106. (,)- 执行任务赚积分（Java & JS & Python & C）
+107. (,)- 执行时长（Java & JS & Python）
+108. (,)- 智能成绩表（Java & JS & Python & C）
+109. (,)- 转盘寿司（Java & JS & Python & C）
+110. (,)- 字符串变换最小字符串（Java & JS & Python & C）
+111. (,)- 字符串分割(二)（Java & JS & Python）
+112. (,)- 字符串排序（Java & JS & Python）
+113. (,)- 字符串筛选排序（Java & JS & Python & C）
+114. (,)- 字符串序列判定（Java & JS & Python & C）
+115. (,)- 字符统计及重排（Java & JS & Python）
+116. (,)- 最大N个数与最小N个数的和（Java & JS & Python）
+117. (,)- 最大股票收益（Java & JS & Python & C）
+118. (,)- 最大矩阵和（Java & JS & Python & C）
+119. (,)- 最大括号深度（Java & JS & Python）
+120. (,)- 最大时间（Java & JS & Python）
+121. (,)- 最多购买宝石数目（Java & JS & Python & C）
+122. (,)- 最富裕的小家庭（Java & JS & Python & C）
+123. (,)- 最长的指定瑕疵度的元音子串（Java & JS & Python & C）
+124. (,)- 最长子字符串的长度（一）（Java & JS & Python & C）
+125. (,)- 5G网络建设（Java & JS & Python & C）
+126. (,)- N进制减法（Java & JS & Python）
+127. (,)- TLV解析 Ⅱ（Java & JS & Python）
+128. (,)- Wonderland（Java & JS & Python & C）
+129. (,)- 比较两个版本号的大小（Java & JS & Python）
+130. (,)- 猜密码（Java & JS & Python）
+131. (,)- 查找一个有向网络的头节点和尾节点（Java & JS & Python & C）
+132. (,)- 出错的或电路（Java & JS & Python & C）
+133. (,)- 打印任务排序（Java & JS & Python & C）
+134. (,)- 导师请吃火锅（Java & JS & Python）
+135. (,)- 电脑病毒感染（Java & JS & Python & C）
+136. (,)- 叠积木（Java & JS & Python & C）
+137. (,)- 二叉树的广度优先遍历（Java & JS & Python & C）
+138. (,)- 二叉树计算（Java & JS & Python & C）
+139. (,)- 发广播（20210310）
+140. (,)- 反射计数（Java & JS & Python & C）
+141. (,)- 分月饼（Java & JS & Python & C）
+142. (,)- 符号运算（Java & JS & Python & C）
+143. (,)- 高效的任务规划（Java & JS & Python & C）
+144. (,)- 高效货运（Java & JS & Python & C）
+145. (,)- 根据IP查找城市（Java & JS & Python & C）
+146. (,)- 欢乐的周末（Java & JS & Python & C）
+147. (,)- 机器人走迷宫（Java & JS & Python）
+148. (,)- 计算疫情扩散时间（Java & JS & Python & C）
+149. (,)- 简易内存池（Java & JS & Python）
+150. (,)- 结队编程（Java & JS & Python & C）
+151. (,)- 九宫格按键输入（Java & JS & Python）
+152. (,)- 矩阵匹配（Java & JS & Python & C）
+153. (,)- 考古学家（Java & JS & Python）
+154. (,)- 可以处理的最大任务数（Java & JS & Python & C）
+155. (,)- 可以组成网络的服务器（Java & JS & Python & C）
+156. (,)- 快递员的烦恼（Java & JS & Python & C）
+157. (,)- 快速人名查找（Java & JS & Python）
+158. (,)- 篮球游戏（Java & JS & Python & C）
+159. (,)- 连续出牌数量（Java & JS & Python & C）
+160. (,)- 两个字符串间的最短路径问题（Java & JS & Python & C）
+161. (,)- 路口最短时间问题（Java & JS & Python & C）
+162. (,)- 没有回文串（Java & JS & Python & C）
+163. (,)- 迷宫问题（Java & JS & Python）
+164. (,)- 模拟目录管理功能（Java & JS & Python & C）
+165. (,)- 攀登者2（Java & JS & Python & C）
+166. (,)- 启动多任务排序（Java & JS & Python & C）
+167. (,)- 抢7游戏（Java & JS & Python & C）
+168. (,)- 亲子游戏（Java & JS & Python & C）
+169. (,)- 任务最优调度（Java & JS & Python & C）
+170. (,)- 数组二叉树（Java & JS & Python）
+171. (,)- 贪吃的猴子（Java & JS & Python & C）
+172. (,)- 贪吃蛇（Java & JS & Python）
+173. (,)- 贪心歌手（Java & JS & Python & C）
+174. (,)- 特殊的加密算法（Java & JS & Python & C）
+175. (,)- 田忌赛马（Java & JS & Python & C）
+176. (,)- 跳格子3（Java & JS & Python & C）
+177. (,)- 跳马（Java & JS & Python & C）
+178. (,)- 图像物体的边界（Java & JS & Python）
+179. (,)- 推荐多样性（Java & JS & Python & C）
+180. (,)- 文本统计分析（Java & JS & Python）
+181. (,)- 文件缓存系统（Java & JS & Python）
+182. (,)- 污染水域（Java & JS & Python & C）
+183. (,)- 项目排期（Java & JS & Python & C）
+184. (,)- 小朋友分组最少调整次数（Java & JS & Python & C）
+185. (,)- 信道分配（Java & JS & Python & C）
+186. (,)- 寻找最优的路测线路（Java & JS & Python & C）
+187. (,)- 园区参观路径（Java & JS & Python & C）
+188. (,)- 员工派遣（Java & JS & Python & C）
+189. (,)- 运输时间（Java & JS & Python & C）
+190. (,)- 找城市（Java & JS & Python & C）
+191. (,)- 找单词（Java & JS & Python）
+192. (,)- 找到比自己强的人数（Java & JS & Python）
+193. (,)- 找数字（Java & JS & Python & C）
+194. (,)- 智能驾驶（Java & JS & Python & C）
+195. (,)- 中文分词模拟器（Java & JS & Python & C）
+196. (,)- 转骰子（Java & JS & Python）
+197. (,)- 字符串比较（Java & JS & Python）
+198. (,)- 字符串拼接（Java & JS & Python & C）
+199. (,)- 最大社交距离（Java & JS & Python & C）
+200. (,)- 最小传输时延Ⅱ（Java & JS & Python）
+201. (,)- 最小矩阵宽度（Java & JS & Python & C）
+202. (,)- 最长子字符串的长度(二)（Java & JS & Python & C）
+
+E卷 (127题):
+  1. (,) - IPv4地址转换成整数（Java & Python& JS & C++ & C ）
+  2. (,) - TLV解码（Java & Python& JS & C++ & C ）
+  3. (,) - VLAN资源池（Java & Python& JS & C++ & C ）
+  4. (,) - We Are A Team（Java & Python& JS & C++ & C ）
+  5. (,) - 报数游戏（Java & Python& JS & C++ & C ）
+  6. (,) - 补种未成活胡杨（Java & Python& JS & C++ & C ）
+  7. (,) - 不等式是否满足约束并输出最大差（Java & Python& JS & C++ & C ）
+  8. (,) - 查找接口成功率最优时间段（Java & Python& JS & C++ & C ）
+  9. (,) - 磁盘容量排序（Java & Python& JS & C++ & C ）
+ 10. (,) - 单词接龙（Java & Python& JS & C++ & C ）
+ 11. (,) - 单向链表中间节点（Java & Python& JS & C++ & C ）
+ 12. (,) - 第k个排列（Java & Python& JS & C++ & C ）
+ 13. (,) - 分班问题幼儿园分班（Java & Python& JS & C++ & C ）
+ 14. (,) - 分割数组的最大差值（Java & Python& JS & C++ & C ）
+ 15. (,) - 分披萨（Java & Python& JS & C++ & C ）
+ 16. (,) - 服务器广播需要广播的服务器数量（Java & Python& JS & C++ & C ）
+ 17. (,) - 高矮个子排队（Java & Python& JS & C++ & C ）
+ 18. (,) - 构成正方形的数量（Java & Python& JS & C++ & C ）
+ 19. (,) - 关联子串（Java & Python& JS & C++ & C ）
+ 20. (,) - 光伏场地建设规划（Java & Python& JS & C++ & C ）
+ 21. (,) - 喊7的次数重排（Java & Python& JS & C++ & C ）
+ 22. (,) - 环中最长子串字符成环找偶数O（Java & Python& JS & C++ & C ）
+ 23. (,) - 恢复数字序列（Java & Python& JS & C++ & C ）
+ 24. (,) - 计算三叉搜索树的高度（Java & Python& JS & C++ & C ）
+ 25. (,) - 简单的自动曝光平均像素值（Java & Python& JS & C++ & C ）
+ 26. (,) - 简易压缩算法一种字符串压缩表示的解压（Java & Python& JS & C++ & C ）
+ 27. (,) - 矩形相交的面积（C++ Java JavaScript Python C语言）
+ 28. (,) - 开心消消乐（Java & Python& JS & C++ & C ）
+ 29. (,) - 考勤信息（Java & Python& JS & C++ & C ）
+ 30. (,) - 螺旋数字矩阵（Java & Python& JS & C++ & C ）
+ 31. (,) - 免单统计（Java & Python& JS & C++ & C ）
+ 32. (,) - 内存资源分配（C++ Java JavaScript Python C语言）
+ 33. (,) - 悄悄话（Java & Python& JS & C++ & C ）
+ 34. (,) - 热点网站统计（Java & Python& JS & C++ & C ）
+ 35. (,) - 生成哈夫曼树（C++ Java JavaScript Python C语言）
+ 36. (,) - 手机App防沉迷系统（Java & Python& JS & C++ & C ）
+ 37. (,) - 数字排列（Java & Python& JS & C++ & C ）
+ 38. (,) - 数字涂色（Java & Python& JS & C++ & C ）
+ 39. (,) - 数组拼接（Java & Python& JS & C++ & C ）
+ 40. (,) - 水仙花数 Ⅰ（C++ Java JavaScript Python C语言）
+ 41. (,) - 素数之积RSA加密算法（Java & Python& JS & C++ & C ）
+ 42. (,) - 新工号中数字的最短长度（Java & Python& JS & C++ & C ）
+ 43. (,) - 选修课（Java & Python& JS & C++ & C ）
+ 44. (,) - 英文输入法（Java & Python& JS & C++ & C ）
+ 45. (,) - 优秀学员统计（Java & Python& JS & C++ & C ）
+ 46. (,) - 游戏分组王者荣耀（Java & Python& JS & C++ & C ）
+ 47. (,) - 预订酒店（Java & Python& JS & C++ & C ）
+ 48. (,) - 运维日志排序（Java & Python& JS & C++ & C ）
+ 49. (,) - 找数字找等值元素（Java & Python& JS & C++ & C ）
+ 50. (,) - 找终点（Java & Python& JS & C++ & C ）
+ 51. (,) - 找最小数（Java & Python& JS & C++ & C ）
+ 52. (,) - 整数对最小和（Java & Python& JS & C++ & C ）
+ 53. (,) - 智能成绩表（Java & Python& JS & C++ & C ）
+ 54. (,) - 转盘寿司（Java & Python& JS & C++ & C ）
+ 55. (,) - 字符串分割转换（Java & Python& JS & C++ & C ）
+ 56. (,) - 字符统计及重排（Java & Python& JS & C++ & C ）
+ 57. (,) - 最大值（Java & Python& JS & C++ & C ）
+ 58. (,) - 最少交换次数（Java & Python& JS & C++ & C ）
+ 59. (,) - 最小的调整次数特异性双端队列（Java & Python& JS & C++ & C ）
+ 60. (,) -货币单位换算（Java & Python& JS & C++ & C ）
+ 61. (,) -虚拟理财游戏（Java & Python& JS & C++ & C ）
+ 62. (,)-boss的收入（Java & Python& JS & C++ & C ）
+ 63. (,)-爱吃蟠桃的孙悟空（Java & Python& JS & C++ & C ）
+ 64. (,)-报文响应时间（Java & Python& JS & C++ & C ）
+ 65. (,)-猜数字（Java & Python& JS & C++ & C ）
+ 66. (,)-猜字谜（Java & Python& JS & C++ & C ）
+ 67. (,)-出租车计费靠谱的车（Java & Python& JS & C++ & C ）
+ 68. (,)-斗地主之顺子（Java & Python& JS & C++ & C ）
+ 69. (,)-分苹果（Java & Python& JS & C++ & C ）
+ 70. (,)-分糖果（Java & Python& JS & C++ & C ）
+ 71. (,)-绘图机器（Java & Python& JS & C++ & C ）
+ 72. (,)-机器人活动区域（Java & Python& JS & C++ & C ）
+ 73. (,)-连续字母长度（Java & Python& JS & C++ & C ）
+ 74. (,)-流量地球（Java & Python& JS & C++ & C ）
+ 75. (,)-敏感字段加密（Java & Python& JS & C++ & C ）
+ 76. (,)-日志采集系统（Java & Python& JS & C++ & C ）
+ 77. (,)-数大雁（Java & Python& JS & C++ & C ）
+ 78. (,)-增强的strstr（Java & Python& JS & C++ & C ）
+ 79. (,)-字符串变换最小字符串（Java & Python& JS & C++ & C ）
+ 80. (,)-最大报酬（Java & Python& JS & C++ & C ）
+ 81. (,)-最大利润贪心的商人（Java & Python& JS & C++ & C ）
+ 82. (,)-最长连续子序列（Java & Python& JS & C++ & C ）
+ 83. (,)-最左侧冗余覆盖子串（Java & Python& JS & C++ & C ）
+ 84. (,) - MELON的难题（Java & Python& JS & C++ & C ）
+ 85. (,) - 打印任务排序（Java & Python& JS & C++ & C ）
+ 86. (,) - 电脑病毒感染（Java & Python& JS & C++ & C ）
+ 87. (,) - 二叉树计算 （Java & Python& JS & C++ & C ）
+ 88. (,) - 观看文艺汇演问题（Java & Python& JS & C++ & C ）
+ 89. (,) - 荒岛求生（Java & Python& JS & C++ & C ）
+ 90. (,) - 计算网络信号信号强度（Java & Python& JS & C++ & C ）
+ 91. (,) - 解压报文压缩报文还原（Java & Python& JS & C++ & C ）
+ 92. (,) - 九宫格按键输入（Java & Python& JS & C++ & C ）
+ 93. (,) - 矩阵匹配（Java & Python& JS & C++ & C ）
+ 94. (,) - 可以处理的最大任务数（Java & Python& JS & C++ & C ）
+ 95. (,) - 模拟目录管理功能（Java & Python& JS & C++ & C ）
+ 96. (,) - 树状结构查询（Java & Python& JS & C++ & C ）
+ 97. (,) - 数字游戏（Java & Python& JS & C++ & C ）
+ 98. (,) - 特殊的加密算法（Java & Python& JS & C++ & C ）
+ 99. (,) - 跳房子I（Java & Python& JS & C++ & C ）
+100. (,) - 跳格子3 （Java & Python& JS & C++ & C ）
+101. (,) - 推荐多样性（Java & Python& JS & C++ & C ）
+102. (,) - 寻找符合要求的最长子串 （Java & Python& JS & C++ & C ）
+103. (,) - 宜居星球改造计划（Java & Python& JS & C++ & C ）
+104. (,) - 云短信平台优惠活动（Java & Python& JS & C++ & C ）
+105. (,) - 战场索敌（Java & Python& JS & C++ & C ）
+106. (,) - 智能驾驶（Java & Python& JS & C++ & C ）
+107. (,) - 中文分词模拟器（Java & Python& JS & C++ & C ）
+108. (,) - 转骰子（Java & Python& JS & C++ & C ）
+109. (,) - 字符串拼接（Java & Python& JS & C++ & C ）
+110. (,) - 最大相连男生数学生方阵（Java & Python& JS & C++ & C ）
+111. (,) - 最佳对手实力差距最小总和（Java & Python& JS & C++ & C ）
+112. (,) - 最长子字符串的长度（Java & Python& JS & C++ & C ）
+113. (,) -文本统计分析（Java & Python& JS & C++ & C ）
+114. (,) -项目排期（Java & Python& JS & C++ & C ）
+115. (,) -周末爬山（Java & Python& JS & C++ & C ）
+116. (,)-查找充电设备组合（Java & Python& JS & C++ & C ）
+117. (,)-导师请吃火锅（Java & Python& JS & C++ & C ）
+118. (,)-计算疫情扩散时间（Java & Python& JS & C++ & C ）
+119. (,)-空栈压数（Java & Python& JS & C++ & C ）
+120. (,)-模拟目录管理（Java & Python& JS & C++ & C ）
+121. (,)-跳马（Java & Python& JS & C++ & C ）
+122. (,)-通过软盘拷贝文件（Java & Python& JS & C++ & C ）
+123. (,)-找单词（Java & Python& JS & C++ & C ）
+124. (,)-字符串化繁为简（Java & Python& JS & C++ & C ）
+125. (,)-字母组合过滤组合字符串（Java & Python& JS & C++ & C ）
+126. (,)-最大社交距离（Java & Python& JS & C++ & C ）
+127. (,)-最长方连续方波信号（Java & Python& JS & C++ & C ）
+
+
+各卷侧重考察点:
+
+A卷:
+  题目数量: 117
+  侧重点: 基础数据结构, 数组操作, 字符串处理, 简单算法
+  描述: A卷主要考察基础算法和数据结构，适合入门级考生，题目相对简单，注重基本功的掌握。
+
+B卷:
+  题目数量: 142
+  侧重点: 动态规划, 贪心算法, 数学计算, 模拟题
+  描述: B卷难度适中，开始涉及一些经典算法思想，如动态规划和贪心，需要一定的算法基础。
+
+C卷:
+  题目数量: 202
+  侧重点: 图论算法, 搜索算法, 复杂数据结构, 综合应用
+  描述: C卷难度较高，涉及图论、搜索等复杂算法，需要较强的算法思维和编程能力。
+
+E卷:
+  题目数量: 127
+  侧重点: 综合算法, 实际应用, 性能优化, 创新思维
+  描述: E卷题目最多，涵盖各种难度和类型，从基础到高级都有，是主要的考试内容。
+
+
+知识点考察概率:
+贪心: 62题 (10.5%)
+数学: 56题 (9.5%)
+字符串: 53题 (9.0%)
+数组: 50题 (8.5%)
+模拟: 37题 (6.3%)
+树: 20题 (3.4%)
+栈队列: 11题 (1.9%)
+图论: 10题 (1.7%)
+动态规划: 10题 (1.7%)
+搜索: 6题 (1.0%)
